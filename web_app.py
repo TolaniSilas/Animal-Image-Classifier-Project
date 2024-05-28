@@ -46,16 +46,12 @@ st.markdown(
 
 st.markdown("<h1 class='title-text'>Animal Classifier Model</h1>", unsafe_allow_html=True)
 st.markdown(
-    """<p class='description-text'>This model is trained to classify images into four classes of animals: Elephant, Giraffe, Lion, and Zebra. 
-    It leverages Convolutional Neural Networks (CNNs) to perform the classification, achieving high accuracy 
-    and robust performance metrics. By accurately predicting animal classes, this project demonstrates the 
-    remarkable capability of machines to discern intricate patterns imperceptible to humans. Furthermore, it 
-    showcases the potential of machine learning to automate repetitive tasks, thereby streamlining workflows 
-    and reducing human labor. Beyond its immediate application in image classification, machine learning has 
-    broader implications across various domains such as Natural Language Processing (NLP) and Computer Vision. 
-    This image classification project not only highlights the capacity of machines to analyze images and videos 
-    but also offers practical solutions to industry challenges and tedious tasks, paving the way for innovation 
-    and efficiency in diverse fields.</p>""",
+    """<p class='description-text'>This model is trained on images featuring four different types of animals: Elephant, Lion, Giraffe, and Zebra. 
+    It utilizes Convolutional Neural Networks (CNN) to perform classification, achieving high accuracy and robust performance metrics. This 
+    project showcases machines' remarkable capability to discern intricate patterns imperceptible to humans. Not only does this image classification 
+    project underscore machines' capacity to analyze images, but it also serves as a demonstration of machine learning's capabilities in image 
+    classification. It provides a practical example of how machine learning can address real-world problems, fostering innovation and efficiency 
+    across diverse fields.</p>""",
     unsafe_allow_html=True
 )
 
@@ -105,9 +101,7 @@ if uploaded_image is not None:
 
 
 
-
-
-
+# ----------------------------------Footer----------------------------------------#
 
 
 st.markdown(
@@ -126,7 +120,7 @@ st.markdown(
 
 
 
-# Add CSS styles
+#-------------------------------Add styling to sidebar using CSS styling.------------------------------------#
 st.markdown(
     """
     <style>
@@ -164,16 +158,14 @@ st.markdown(
 )
 
 
-# Define the sidebar content using Streamlit's layout components
+# Define the sidebar content using Streamlit's layout components.
 st.sidebar.markdown(
     """
     <div class="info">
         <h1 class="h1">About</h1>
         <p>
-            This web application is an Animal Classifier project, 
-            which aims to classify images into four classes of animals: Elephant, 
-            Giraffe, Lion, and Zebra. The project utilizes Convolutional Neural Networks 
-            (CNNs) to achieve high accuracy in classification. 
+        This web application is an Animal Classifier project, which aims to classify images of four different types of animals: Elephant, Giraffe,
+        Lion, and Zebra. The project utilizes Convolutional Neural Networks (CNNs) to achieve high accuracy in classification. 
         </p>
         <h2 class="header">Purpose</h2>
         <p>
