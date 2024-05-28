@@ -1,7 +1,7 @@
 
 # Image Classification Task
 
-This project involves building a machine learning model to classify images of various classes of animals. Using a Convolutional Neural Network (CNN) and a labeled dataset of animal images, the model aims to accurately identify the classes of animals depicted in new images. The model was trained on four classes of animals. The purpose of this project is to demonstrate the capabilities of machine learning in image classification and to provide a practical example of how machine learning can be applied to real-world problems. 
+This project involves building a machine learning model to classify images of four different animals. Using a Convolutional Neural Network (CNN) model and a labeled dataset of animal images, the CNN model was trained on images of four animals, aiming to accurately identify the classes of animals depicted in new images. The purpose of this project is to demonstrate the capabilities of machine learning in image classification and to provide a practical example of how machine learning can be applied to real-world problems.
 
 
 ## Dataset
